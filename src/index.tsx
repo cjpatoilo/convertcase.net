@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import * as serviceWorker from './serviceWorker'
 
-const App = () => <>My App</>
+import Router from './components/Router'
+import * as serviceWorker from './serviceWorker'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router />
   </React.StrictMode>,
   document.getElementById('root')
 )
